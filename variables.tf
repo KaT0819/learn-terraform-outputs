@@ -66,3 +66,6 @@ variable "db_password" {
   type        = string
   default     = "notasecurepassword"
 }
+
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
